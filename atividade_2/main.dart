@@ -32,11 +32,20 @@ void main() {
         print("Preço:");
         double preco = double.parse(stdin.readLineSync()!);
 
-        Produto p = new Produto(nome, categoria, marca, preco);
+        Produto p = new Produto(nome: nome, categoria: categoria, marca: marca, preco: preco);
 
         prod.add(p);
 
       case 2:
+
+      case 3:
+    
+      case 4:
+
+      case 5:
+
+      case 6:
+
 
     }
   } while (op != 0);
